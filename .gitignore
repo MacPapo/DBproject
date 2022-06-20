@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# macOS stuff
+*.DS_Store
+.DS_Store
+
+# project stuff
+bin
+obj
