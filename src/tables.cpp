@@ -19,7 +19,7 @@ void Table::set_score(int scr)
 }
 void Table::set_CFU(int cf)
 {
-  CFU  =cf;
+  CFU = cf;
 }
 void Table::set_primary_key(int pk)
 {
