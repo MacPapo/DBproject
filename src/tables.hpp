@@ -12,15 +12,15 @@
 class Table
 {
 public:
-  Table()
-  {
-    std::random_device rd; // obtain a random number from hardware
-    std::mt19937 gen(rd()); // seed the generator
-    std::uniform_int_distribution<> distr(100, 999); // define the range
-    for(int n=0; n<40; ++n)
-      std::cout << distr(gen) << ' '; // generate numbers
-  }
-private:
+    Table();
+    void set_prof(string);
+    void set_course(string);
+    void set_score(int);
+    void set_CFU(int);
+    void set_primary_key(int);
+
+
+    private:
   int primary_key; // 3 digit n-n-n
   string course;
   // MANCA DATA
