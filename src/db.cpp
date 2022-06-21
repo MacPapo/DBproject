@@ -53,13 +53,13 @@ void DB::create_table()
 
 ostream& operator << (ostream& out, const Table& tab)
 {
-  out << "------------------------" << endl;
+  out << "-------------------------" << endl;
   out << "- ID:\t\t" << tab.get_primary_key() << endl;
   out << "- Course:\t" << tab.get_course() << endl;
   out << "- Prof:\t\t" << tab.get_prof() << endl;
   out << "- CFU:\t\t" << tab.get_CFU() << endl;
   out << "- Score:\t" << tab.get_score() << endl;
-  out << "------------------------" << endl;
+  out << "-------------------------" << endl;
   return out;
 }
 

@@ -1,3 +1,4 @@
+
 #include "cypher.hpp"
 
 using Encrypt::Cypher;
